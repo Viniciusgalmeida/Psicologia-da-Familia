@@ -1,0 +1,124 @@
+:root {
+  --lightblue: #addce6;
+}
+
+.menuDesktop {
+  display: none;
+}
+.menuMobile {
+  display: block;
+  width: 100%;
+  min-height: 80px;
+  height: auto;
+  padding: 3% 5% 0 5%;
+  background-color: var(--lightblue);
+  
+  font-family: "Inter", sans-serif;
+}
+
+.buttonMobileMenu__icon {
+  width: 40px;
+}
+
+.dropdownMenu {
+  position: relative;
+  top: 80px;
+  width: 100%;
+  height: 210px;
+}
+
+.buttonMobileMenu {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 20px;
+  left: 80%;
+}
+
+.buttonMobileMenu:active {
+  background-color: rgba(0, 0, 0, 0.487);
+  /* border: 1px solid black; */
+}
+
+.menuListMobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  font-size: 25px;
+  margin-top: -70px;
+}
+
+.dropdownMenu__list--page {
+  margin-top: 15px;
+}
+
+.menuIconMobile:active {
+  background-color: rgba(0, 0, 0, 0.487);
+}
+
+.horizontalLIne {
+  width: 80%;
+  height: 1px;
+  background-color: #fff;
+  margin: 5px 0;
+}
+
+
+.menuMobile__logoTerapia {
+  width: 60px;
+  height: auto;
+}
+
+li a {
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+  transition: 300ms ease-in-out;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+
+/* Menu over 426px of width */
+@media (min-width: 426px) {
+  .menuMobile {
+    display: none;
+  }
+
+  .menuDesktop {
+    display: block;
+    width: 100%;
+    height: 80px;
+    padding: 0 5%;
+    background-color: var(--lightblue);
+    display: flex;
+    justify-content: center;
+  }
+
+  .menuDesktop__itens {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 20px; */
+    padding-top: 5px;
+    font-family: "Inter", sans-serif;
+  }
+  .menuDesktop__itens--list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 18px;
+  }
+
+
+  .menuDesktop__itens--logoTerapia {
+    width: 70px;
+    height: auto;
+  }
+}

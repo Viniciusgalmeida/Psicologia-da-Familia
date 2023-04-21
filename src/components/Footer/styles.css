@@ -1,0 +1,47 @@
+.footerMenu {
+    width: 100%;
+    height: auto;
+    background-color: #addce6;
+    margin-top: 20px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+
+}
+
+.footerMenu__logoFooter {
+    width: 100px;
+}
+
+.routes {
+    font-size: 14px;
+}
+
+.HorizontalLIne {
+    width: 80%;
+    height: 1px;
+    background-color: #fff;
+    margin-bottom: 15px;
+    max-width: 800px;
+}
+
+.socialLogo {
+    width: 25px;
+    margin-left: 20px;
+}
+
+.copyRight {
+    font-size: 11px;
+    
+    color: #fff;
+    margin-top: 15px;
+}
+
+.menuDesktop__itens--list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 18px;
+  }

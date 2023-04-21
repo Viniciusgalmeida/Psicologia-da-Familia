@@ -1,0 +1,228 @@
+:root {
+  --darkgray: #535353;
+  --skyblue: #87ceeb;
+  --lightskyblue: #82caff;
+  --paleChestnut: #e6b0aa;
+  --dandelion: #f7dc6f;
+  --white: #fff;
+}
+
+.container__article {
+  margin: 0;
+}
+
+.container__article--pageTitle {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  color: var(--darkgray);
+  font-weight: 400;
+  font-size: 32px;
+  padding: 8px 20px 0 20px;
+}
+
+.container__article--pageSubtitle {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  color: var(--darkgray);
+  font-weight: 400;
+  font-size: 20px;
+  padding: 2px 20px;
+}
+
+.container__article--pageSubheading {
+  font-family: "Montserrat", sans-serif;
+  color: var(--skyblue);
+  font-weight: 800;
+  font-size: 20px;
+  padding: 5px 20px;
+}
+
+.buttonSchelue__Deskt {
+  display: none;
+}
+
+.container__article--psychoImage {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.aboutArea {
+  width: 100%;
+  height: auto;
+  background-color: var(--lightskyblue);
+  margin-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutArea__Title,
+.aboutArea__Text,
+.aboutArea__Text--Title,
+.depoimento__Title,
+.depoimento__Text {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: var(--white);
+   text-align: center; 
+  margin-bottom: 15px;
+  padding: 25px;
+  max-width: 1000px;
+  margin: 0 30px;
+}
+
+.aboutArea__Text {
+  font-size: 20px;
+  padding: 10px 25px;
+}
+
+.bannerWhite,
+.bannerYellow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bannerWhite__logo {
+  width: 100%;
+  max-width: 300px;
+  margin-top: 15px;
+}
+
+.bannerWhite__text {
+  font-family: "Inter", sans-serif;
+  max-width: 475px;
+  color: var(--darkgray);
+  font-size: 30px;
+  text-align: center;
+  margin: 20px 25px 23px 25px;
+}
+
+.parallax {
+  width: 100%;
+  height: 240px;
+  background-image: url("/src/assets/grupo.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 300%;
+  background-repeat: no-repeat;
+  margin-top: 25px;
+}
+
+.areasAtuacao {
+  width: 100%;
+  height: auto;
+  background-color: var(--paleChestnut);
+  padding: 15px 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  padding: 0 95px;
+}
+
+.aboutArea__Text--Title {
+  font-size: 29px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.areasAtuacao__Card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.depoimento {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.depoimento__Title {
+  color: var(--darkgray);
+}
+
+.depoimento__Text {
+  color: var(--darkgray);
+  font-size: 20px;
+  padding: 0 5px;
+}
+
+.bannerYellow {
+  background-color: var(--dandelion);
+  margin-top: 40px;
+  padding: 40px 0;
+}
+
+/* Menu over 426px of width */
+@media (min-width: 450px) {
+  .container__article--psychoImage {
+    width: 50%;
+    max-width: 376px;
+    height: auto;
+  }
+
+  .buttonSchelue__Deskt {
+    display: block;
+  }
+
+  .buttonSchelue__Mobile {
+    display: none;
+  }
+
+  .container__Principal {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .container__article--pageTitle {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 40px;
+  }
+
+  .container__article--pageSubheading {
+    margin: 20px 0;
+  }
+}
+
+/* Menu over 900px of width */
+@media (min-width: 900px) {
+  .areasAtuacao__Container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px;
+    padding: 0 25px;
+    max-width: 1200px;
+  }
+
+  .bannerWhite__logo {
+    width: 100%;
+    max-width: 510px;
+  }
+
+  .bannerWhite,
+  .bannerYellow {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+}

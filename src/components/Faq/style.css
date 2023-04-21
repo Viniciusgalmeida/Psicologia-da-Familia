@@ -1,0 +1,37 @@
+.faq {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerFaq {
+  padding: 0 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+details {
+  background-color: #e2e2e2;
+  border-bottom: 1px solid #fff;
+  padding: 0 8px;
+}
+
+summary {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+  /* font-weight: 700; */
+  font-family: "Inter";
+  color: #535353;
+}
+
+summary:hover {
+  background-color: #82caff;
+  opacity: 0.9;
+}
+
+.conatainerFaq__text {
+  font-family: "Inter";
+  margin-bottom: 20px;
+}

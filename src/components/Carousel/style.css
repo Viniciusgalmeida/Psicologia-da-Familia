@@ -1,0 +1,77 @@
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+.carousel {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  height: auto;
+  min-height: 500px;
+
+  overflow: hidden;
+
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.card__Image {
+  width: 70vw;
+  max-width: 300px;
+  height: auto;
+  object-fit: cover;
+}
+
+.card__Top {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.card__Botton {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card__Botton--h1 {
+  font-family: "Inter";
+  color: #535353;
+}
+
+.card__Botton--p {
+  font-family: "Inter";
+  color: #535353;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.slick-prev,
+.slick-next {
+  width: 50px;
+  height: 50px;
+}
+
+.slick-prev {
+  left: 15px;
+  z-index: 999;
+}
+
+.slick-next {
+  right: 15px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #82caff;
+}

@@ -1,0 +1,37 @@
+.buttonSchedule {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 15px;
+
+  width: 90%;
+  height: 80px;
+  background-color: #24b5d3;
+  border: none;
+  border-radius: 45px;
+
+  /* font */
+  color: #fff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+
+  transition: 300ms;
+
+  cursor: pointer;
+}
+
+.buttonSchedule:hover {
+  background-color: #28c6e6;
+  /* border: solid 5px #125c6b; */
+}
+
+.buttonSchedule:active {
+  background-color: #28cef0;
+}
+
+.linkToContato {
+  text-decoration: none;
+}
