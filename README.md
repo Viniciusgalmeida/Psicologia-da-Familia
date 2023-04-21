@@ -8,7 +8,9 @@ The code for the app is available on Github: https://github.com/Viniciusgalmeida
 
 ### Family Psychology site image:
 
-![Family Psychology picture] (https://raw.githubusercontent.com/Viniciusgalmeida/Psicologia-da-Familia/main/public/Psicologo_image.png)
+![Family Psychology picture](https://raw.githubusercontent.com/Viniciusgalmeida/Psicologia-da-Familia/main/public/Psicologo_image.png)
+
+
 
 
 ___
